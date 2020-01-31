@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://github.com/kevinrodriguez-io/pigment#readme",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspace @pigment/core run build",
+    "prerelease": "yarn build",
+    "release": "lerna publish",
+    "setup": "yarn install",
+    "start": "concurrently \"yarn build --watch\" \"yarn workspace @pigment/react-web-example start\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "dotenv-cli": "^3.1.0",
+    "lerna": "^3.20.2",
+    "typescript": "^3.7.5"
+  }
+}

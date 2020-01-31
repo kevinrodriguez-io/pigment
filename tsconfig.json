@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": ["es2017", "es7", "es6", "dom"],
+    "module": "commonjs",
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": ["node_modules", "**/lib", "**/__tests__"]
+}
