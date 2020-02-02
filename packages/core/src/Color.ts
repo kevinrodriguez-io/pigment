@@ -1,4 +1,4 @@
-import { RGB, HSL, XYZ, LAB } from './types'
+import { RGB, HSL, XYZ, LAB, ComplementaryColorScheme, TriadicColorScheme, ColorScheme, FlatColorScheme, ComplementaryFlatColorScheme, TriadicFlatColorScheme } from './types'
 
 import {
   reHash,
@@ -31,7 +31,6 @@ import {
   toRgbString,
   toHexString,
 } from './tools/colorToString'
-import ColorScheme from './ColorScheme'
 
 export default class Color {
   hex: string = ''
@@ -172,23 +171,23 @@ export default class Color {
     return analogousColorSchemeFromColor(this)
   }
 
-  public get analogousFlatColorScheme(): ColorScheme {
+  public get analogousFlatColorScheme(): FlatColorScheme {
     return analogousColorSchemeFromColor(this, true)
   }
 
-  public get complementaryColorScheme(): ColorScheme {
+  public get complementaryColorScheme(): ComplementaryColorScheme {
     return complementaryColorSchemeFromColor(this)
   }
 
-  public get complementaryFlatColorScheme(): ColorScheme {
+  public get complementaryFlatColorScheme(): ComplementaryFlatColorScheme {
     return complementaryColorSchemeFromColor(this, true)
   }
 
-  public get triadicColorScheme(): ColorScheme {
+  public get triadicColorScheme(): TriadicColorScheme {
     return triadicColorSchemeFromColor(this)
   }
 
-  public get triadicFlatColorScheme(): ColorScheme {
+  public get triadicFlatColorScheme(): TriadicFlatColorScheme {
     return triadicColorSchemeFromColor(this, true)
   }
 

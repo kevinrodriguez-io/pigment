@@ -1,7 +1,11 @@
 import Color from './Color'
 import { toHslString } from './tools/colorToString'
 import { limitHue, limitPercentageValue } from './ColorUtils'
-import ColorScheme from './ColorScheme'
+import {
+  ComplementaryColorScheme,
+  TriadicColorScheme,
+  ColorScheme,
+} from './types'
 
 export const analogousColorSchemeFromColor = (
   { hsl: { h, s, l } }: Color,
@@ -103,7 +107,7 @@ export const analogousColorSchemeFromColor = (
 export const complementaryColorSchemeFromColor = (
   { hsl: { h, s, l } }: Color,
   flat = false,
-): ColorScheme => {
+): ComplementaryColorScheme => {
   let firstColor = new Color(
     toHslString({
       h,
@@ -158,7 +162,7 @@ export const complementaryColorSchemeFromColor = (
 export const triadicColorSchemeFromColor = (
   { hsl: { h, s, l } }: Color,
   flat = false,
-): ColorScheme => {
+): TriadicColorScheme => {
   let firstColor = new Color(
     toHslString({
       h: limitHue(h + 120),
