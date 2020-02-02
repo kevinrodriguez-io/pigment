@@ -21,6 +21,15 @@
         "ideas",
         "test"
       ]
+    },
+    {
+      "login": "viccalexander",
+      "name": "Vicc Alexander",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1724674?v=4",
+      "profile": "https://www.twitter.com/viccalexander",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7
