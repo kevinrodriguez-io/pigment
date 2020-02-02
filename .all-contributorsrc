@@ -8,19 +8,7 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": [
-    {
-      "login": "kevinrodriguez-io",
-      "name": "Kevin Rodríguez",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/6248571?v=4",
-      "profile": "https://kevinrodriguez.io",
-      "contributions": [
-        "code",
-        "test",
-        "doc"
-      ]
-    }
-  ],
+  "contributors": [],
   "contributorsPerLine": 7,
   "badgeTemplate": "<a href=\"#contributors\"><img src=\"https://img.shields.io/badge/all_contributors-<%= contributors.length %>-blue.svg?style=flat-square\" alt=\"All Contributors\" /></a>"
 }
