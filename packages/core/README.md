@@ -1,4 +1,4 @@
-# @pigment/core 🌈 - Pigment's engine
+# @kevinrodriguez-io/pigment-core 🌈 - Pigment's engine
 
 ![Features](https://user-images.githubusercontent.com/6248571/73604650-c2279000-4559-11ea-8dfd-76d8fa5e9497.png)
 
