@@ -1,6 +1,6 @@
 {
   "name": "@pigment/core",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "private": false,
   "description": "A powerful library that provides color-conversions, palette/scheme generation, color manipulation and many more features intended to provide a great UX.",
   "repository": "https://github.com/kevinrodriguez-io/pigment",
