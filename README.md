@@ -1,6 +1,6 @@
 # Pigment 🌈 - A Colorful JS Framework
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Introduction
@@ -128,6 +128,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://kevinrodriguez.io/"><img src="https://avatars3.githubusercontent.com/u/6248571?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Rodríguez</b></sub></a><br /><a href="https://github.com/kevinrodriguez-io/Pigment/commits?author=kevinrodriguez-io" title="Documentation">📖</a> <a href="https://github.com/kevinrodriguez-io/Pigment/commits?author=kevinrodriguez-io" title="Code">💻</a> <a href="#ideas-kevinrodriguez-io" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/kevinrodriguez-io/Pigment/commits?author=kevinrodriguez-io" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://www.twitter.com/viccalexander"><img src="https://avatars0.githubusercontent.com/u/1724674?v=4" width="100px;" alt=""/><br /><sub><b>Vicc Alexander</b></sub></a><br /><a href="#ideas-viccalexander" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://kevinwolf.dev"><img src="https://avatars2.githubusercontent.com/u/3157426?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Wolf</b></sub></a><br /><a href="#ideas-iamkevinwolf" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
