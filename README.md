@@ -1,13 +1,27 @@
-# Pigment 🌈 - A Colorful JS Framework
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6248571/73606093-3c611000-456c-11ea-997d-3032c6a2ca1e.png" alt="Logo">
+</p>
 
-<a href="https://github.com/kevinrodriguez-io/pigment/watchers"><img src="https://img.shields.io/github/watchers/kevinrodriguez-io/pigment?style=social" alt="Watch on GitHub" /></a>
-<a href="https://github.com/kevinrodriguez-io/pigment/stargazers"><img src="https://img.shields.io/github/stars/kevinrodriguez-io/pigment?style=social" alt="Star on GitHub" /></a>
-<a href="https://twitter.com/intent/tweet?text=Check out Pigment 🌈, a Colorful JS framework to generate dynamic user interfaces. https://github.com/kevinrodriguez-io/pigment"><img src="https://img.shields.io/twitter/url/https/github.com/kevinrodriguez-io/pigment.svg?style=social" alt="Tweet!" /></a>
+<h1 align="center">Pigment 🌈 - A Colorful JS Framework</h1>
 
-<a href="https://npmjs.com/package/@kevinrodriguez-io/pigment-core"><img src="https://img.shields.io/npm/v/@kevinrodriguez-io/pigment-core.svg?label=@kevinrodriguez-io/pigment-core&style=flat-square" alt="@kevinrodriguez-io/pigment"></a>
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+<p align="center">
+  <a href="https://github.com/kevinrodriguez-io/pigment/watchers"><img src="https://img.shields.io/github/watchers/kevinrodriguez-io/pigment?style=social" alt="Watch on GitHub" /></a>
+  <a href="https://github.com/kevinrodriguez-io/pigment/stargazers"><img src="https://img.shields.io/github/stars/kevinrodriguez-io/pigment?style=social" alt="Star on GitHub" /></a>
+  <a href="https://twitter.com/intent/tweet?text=Check out Pigment 🌈, a Colorful JS framework to generate dynamic user interfaces. https://github.com/kevinrodriguez-io/pigment"><img src="https://img.shields.io/twitter/url/https/github.com/kevinrodriguez-io/pigment.svg?style=social" alt="Tweet!" /></a>
+</p>
+
+<p align="center">
+  <a href="https://npmjs.com/package/@kevinrodriguez-io/pigment-core"><img src="https://img.shields.io/npm/v/@kevinrodriguez-io/pigment-core.svg?label=@kevinrodriguez-io/pigment-core&style=flat-square" alt="@kevinrodriguez-io/pigment"></a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+  </a>
+  <a href="#contributors-">
+    <img src="https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square" alt="All Contributors">
+  </a>
+  <a href="https://lerna.js.org/">
+    <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" alt="lerna">
+  </a>
+</p>
 
 ## Introduction
 
@@ -44,14 +58,16 @@ Does this sound familiar? That's because Pigment is heavily inspired by Vicc Ale
 ```bash
 npm i @kevinrodriguez-io/pigment-core --save
 ```
+
 or
+
 ```bash
 yarn add @kevinrodriguez-io/pigment-core
 ```
 
 ## Usage
 
-- Wrap your color * Supported formats: HEX, RGB, HSL
+- Wrap your color \* Supported formats: HEX, RGB, HSL
 
 ```ts
 const hex = '#E74C3C'
@@ -140,6 +156,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
