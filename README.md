@@ -1,11 +1,13 @@
 # Pigment 🌈 - A Colorful JS Framework
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<a href="https://github.com/kevinrodriguez-io/pigment/watchers"><img src="https://img.shields.io/github/watchers/kevinrodriguez-io/pigment?style=social" alt="Watch on GitHub" /></a>
+<a href="https://github.com/kevinrodriguez-io/pigment/stargazers"><img src="https://img.shields.io/github/stars/kevinrodriguez-io/pigment?style=social" alt="Star on GitHub" /></a>
+<a href="https://twitter.com/intent/tweet?text=Check out Pigment 🌈, a Colorful JS framework to generate dynamic user interfaces. https://github.com/kevinrodriguez-io/pigment"><img src="https://img.shields.io/twitter/url/https/github.com/kevinrodriguez-io/pigment.svg?style=social" alt="Tweet!" /></a>
 
+<a href="https://npmjs.com/package/@kevinrodriguez-io/pigment-core"><img src="https://img.shields.io/npm/v/@kevinrodriguez-io/pigment-core.svg?label=@kevinrodriguez-io/pigment-core&style=flat-square" alt="@kevinrodriguez-io/pigment"></a>
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Introduction
 
