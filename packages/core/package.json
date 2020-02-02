@@ -1,6 +1,6 @@
 {
-  "name": "@pigment/core",
-  "version": "1.2.5",
+  "name": "@hue/core",
+  "version": "1.2.6",
   "private": false,
   "description": "A powerful library that provides color-conversions, palette/scheme generation, color manipulation and many more features intended to provide a great UX.",
   "repository": "https://github.com/kevinrodriguez-io/pigment",
@@ -12,7 +12,7 @@
     "lib": "lib"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
     "prebuild": "rm -rf ./lib",
