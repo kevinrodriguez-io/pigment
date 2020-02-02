@@ -17,5 +17,8 @@
   "devDependencies": {
     "typescript": "^3.7.5"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "gitHead": "a1e1b57b68e91211cfab2ad3c6f36806e9f1fb08"
 }
