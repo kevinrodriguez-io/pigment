@@ -1,14 +1,18 @@
 {
-  "version": "0.0.1",
+  "version": "1.1.0",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
     "publish": {
       "allowBranch": "master",
       "conventionalCommits": true,
-      "githubRelease": true,
-      "ignoreChanges": ["!packages/**"],
+      "ignoreChanges": [
+        "!packages/**"
+      ],
       "message": "chore(release): release %s 🚀 [skip ci]"
+    },
+    "version": {
+      "createRelease": "github"
     }
   }
 }
