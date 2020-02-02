@@ -7,11 +7,11 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspace @magic-color/core run build",
+    "build": "yarn workspace @kevinrodriguez-io/pigment-core run build",
     "prerelease": "yarn build",
     "release": "dotenv lerna publish",
     "setup": "yarn install",
-    "start": "concurrently \"yarn build --watch\" \"yarn workspace @magic-color/react-web-example start\""
+    "start": "concurrently \"yarn build --watch\" \"yarn workspace @kevinrodriguez-io/pigment-react-web-example start\""
   },
   "dependencies": {},
   "devDependencies": {
