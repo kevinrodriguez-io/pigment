@@ -40,11 +40,11 @@ Does this sound familiar? That's because Pigment is heavily inspired by Vicc Ale
 ## Installing
 
 ```bash
-npm i @pigment/core --save
+npm i @kevinrodriguez-io/pigment-core --save
 ```
 or
 ```bash
-yarn add @pigment/core
+yarn add @kevinrodriguez-io/pigment-core
 ```
 
 ## Usage
