@@ -46,7 +46,7 @@ Does this sound familiar? That's because Pigment is heavily inspired by Vicc Ale
 - 24 Hand-Picked Flat Colors in both shades (Light and Dark)
 - Color shades generation
 - Find most similar hand-picked Flat color from another color
-- Get contrasting color text (Black / White) for another color
+- Get contrasting color text (Black / White) from another color
 - Generate Color Schemes:
   - Analogous
   - Complementary
@@ -70,7 +70,9 @@ yarn add @kevinrodriguez-io/pigment-core
 - Wrap your color \* Supported formats: HEX, RGB, HSL
 
 ```ts
-const hex = '#E74C3C'
+import { Color, Colors } from '@kevinrodriguez-io/pigment-core'
+
+const hex = Colors.flatRed.light
 const color = new Color(hex)
 ```
 
