@@ -23,6 +23,10 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://pigment-react-web-example.netlify.com/">Live tool/example</a>
+</p>
+
 ## Introduction
 
 Pigment is a lightweight, yet powerful, color framework for the web, react-native (WIP) and any other JS-Based project. It is built on the idea that software applications should function effortlessly while simultaneously maintaining their beautiful interfaces.
