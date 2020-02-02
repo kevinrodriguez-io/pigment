@@ -1,16 +1,4 @@
-# Pigment 🌈 - A Colorful JS Framework
-
-## Introduction
-
-Pigment is a lightweight, yet powerful, color framework for the web, react-native (WIP) and any other JS-Based project. It is built on the idea that software applications should function effortlessly while simultaneously maintaining their beautiful interfaces.
-
-With Pigment, you can easily stop tinkering with RGB values, wasting hours figuring out the right color combinations to use in your app, and worrying about whether your text will be readable on the various background colors of your app.
-
-Does this sound familiar? That's because Pigment is heavily inspired by Vicc Alexander's [Chameleon Framework](https://github.com/viccalexander/Chameleon), which provides this functionality for native iOS (OBJC & Swift 3).
-
-![Flat Colors](https://user-images.githubusercontent.com/6248571/73604634-6eb54200-4559-11ea-8b9e-f29c3ece0793.png)
-
-## Features
+# pigment@core 🌈 - Pigment's engine
 
 ![Features](https://user-images.githubusercontent.com/6248571/73604650-c2279000-4559-11ea-8dfd-76d8fa5e9497.png)
 
@@ -104,12 +92,3 @@ color.triadicFlatColorScheme
 color.contrastingTextColor
 color.contrastingFlatTextColor // Flat version
 ```
-
-## Coming soon
-
-- Global-theming examples with styled-components & emotion/native (CSS in JS)
-- Get color scheme from image (Web)
-- Get color scheme from image (React-Native)
-- Machine-Learning JS models for color scheme generation
-- CSS Global Theme Generation
-- CSS Houdini Paint Worklets to support conversions and derived colors
