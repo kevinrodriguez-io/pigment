@@ -9,7 +9,7 @@
   "scripts": {
     "build": "yarn workspace @pigment/core run build",
     "prerelease": "yarn build",
-    "release": "lerna publish",
+    "release": "dotenv lerna publish",
     "setup": "yarn install",
     "start": "concurrently \"yarn build --watch\" \"yarn workspace @pigment/react-web-example start\""
   },
