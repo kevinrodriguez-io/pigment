@@ -24,5 +24,20 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "f4d7698af715a279d2b305c61729161216626b5d"
+  "gitHead": "f4d7698af715a279d2b305c61729161216626b5d",
+  "keywords": [
+    "@kevinrodriguez-io/pigment-core",
+    "pigment",
+    "pigment core",
+    "kevinrodriguez-io",
+    "kevin rodríguez",
+    "color conversion",
+    "color theme",
+    "color palette",
+    "complementary color",
+    "triadic color",
+    "triadic",
+    "analogous",
+    "pigment js"
+  ]
 }
