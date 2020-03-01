@@ -182,27 +182,6 @@ export const XYZtoLAB = (x: number, y: number, z: number): LAB => {
   return { l, a, b }
 }
 
-export const mix = (
-  color1: { rgb: RGB },
-  color2: { rgb: RGB },
-  percentage: number,
-) => {
-  percentage = typeof percentage === 'undefined' ? 50 : percentage
-
-  const weight = percentage / 100.0
-  const w = weight * 2 - 1
-  const a = 0
-
-  const w1 = ((w * a === -1 ? w : (w + a) / (1 + w * a)) + 1) / 2.0
-  const w2 = 1 - w1
-
-  const r = Math.round(color1.rgb.r * w1 + color2.rgb.r * w2)
-  const g = Math.round(color1.rgb.g * w1 + color2.rgb.g * w2)
-  const b = Math.round(color1.rgb.b * w1 + color2.rgb.b * w2)
-
-  return new Color(RGBtoHEX(r, g, b))
-}
-
 export const fmod = (a: number, b: number) =>
   parseFloat((a - Math.floor(a / b) * b).toPrecision(8))
 
@@ -327,7 +306,6 @@ export default {
   HSLtoRGB,
   RGBtoXYZ,
   XYZtoLAB,
-  mix,
   fmod,
   totalSumOfDifferences,
   limitHue,

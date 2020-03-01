@@ -1,4 +1,15 @@
-import { RGB, HSL, XYZ, LAB, ComplementaryColorScheme, TriadicColorScheme, ColorScheme, FlatColorScheme, ComplementaryFlatColorScheme, TriadicFlatColorScheme } from './types'
+import {
+  RGB,
+  HSL,
+  XYZ,
+  LAB,
+  ComplementaryColorScheme,
+  TriadicColorScheme,
+  ColorScheme,
+  FlatColorScheme,
+  ComplementaryFlatColorScheme,
+  TriadicFlatColorScheme,
+} from './types'
 
 import {
   reHash,
@@ -12,7 +23,6 @@ import {
   isHEX,
   isHSL,
   isRGB,
-  mix,
   totalSumOfDifferences,
   limitHue,
 } from './ColorUtils'
@@ -23,7 +33,7 @@ import {
   triadicColorSchemeFromColor,
 } from './ColorSchemes'
 
-import colors, { flatColorsArray } from './Colors'
+import { flatColorsArray } from './Colors'
 import {
   toHslString,
   toXyzString,
@@ -31,6 +41,8 @@ import {
   toRgbString,
   toHexString,
 } from './tools/colorToString'
+
+import { brightness, mixColors } from './functions'
 
 export default class Color {
   hex: string = ''
@@ -85,11 +97,15 @@ export default class Color {
   }
 
   public tint(percentage: number = 10): Color {
-    return mix({ rgb: { r: 255, g: 255, b: 255 } }, this, percentage)
+    const absoluteWhite: RGB = { r: 255, g: 255, b: 255 }
+    const { r, g, b } = mixColors(absoluteWhite, this.rgb, percentage)
+    return new Color(RGBtoHEX(r, g, b))
   }
 
   public shade(percentage: number = 10): Color {
-    return mix({ rgb: { r: 0, g: 0, b: 0 } }, this, percentage)
+    const absoluteBlack: RGB = { r: 0, g: 0, b: 0 }
+    const { r, g, b } = mixColors(absoluteBlack, this.rgb, percentage)
+    return new Color(RGBtoHEX(r, g, b))
   }
 
   public tints(percentage: number = 10): Color[] {
@@ -152,8 +168,7 @@ export default class Color {
   }
 
   public get brightness(): number {
-    const { r, g, b } = this.rgb
-    return Math.round(((r + g + b) / (255 * 3)) * 100)
+    return brightness(this.rgb)
   }
 
   public get complementaryColor(): Color {
