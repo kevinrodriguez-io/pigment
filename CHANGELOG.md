@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/kevinrodriguez-io/pigment/compare/v1.2.12...v1.3.0) (2020-03-01)
+
+
+### Features
+
+* Functions module for simplified functional calls ([761c679](https://github.com/kevinrodriguez-io/pigment/commit/761c67947c24b95ef99cb7f20418f6027084f764))
+
+
+
+
+
 ## [1.2.12](https://github.com/kevinrodriguez-io/pigment/compare/v1.2.11...v1.2.12) (2020-02-29)
 
 **Note:** Version bump only for package pigment
