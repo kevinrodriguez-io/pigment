@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Color } from '@pigment/core'
+import { Color } from '@kevinrodriguez-io/pigment-core'
 import ColorDisplaySection from './ColorDisplaySection'
 import style from './App.module.css'
 

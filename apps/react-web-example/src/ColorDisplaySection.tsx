@@ -1,5 +1,5 @@
 import React from 'react'
-import { Color } from '@pigment/core'
+import { Color } from '@kevinrodriguez-io/pigment-core'
 
 interface ColorDisplaySectionProps {
   title: string
