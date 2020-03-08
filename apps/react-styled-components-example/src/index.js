@@ -59,7 +59,16 @@ const App = () => {
         <div style={{ marginTop: '1rem' }} />
         <Card>
           <h3>Try another color!</h3>
-          <ColorInput value={appColor} onChange={handleColorChange} type="color" />
+          <ColorInput
+            value={appColor}
+            onChange={handleColorChange}
+            type="color"
+          />
+        </Card>
+        <div style={{ marginTop: '1rem' }} />
+        <Card style={{ overflowX: 'scroll' }}>
+          <h3>Theme object</h3>
+          <pre>{JSON.stringify(theme, null, 2)}</pre>
         </Card>
       </Layout>
     </ThemeProvider>
