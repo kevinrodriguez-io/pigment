@@ -147,7 +147,8 @@ color.contrastingFlatTextColor // Flat version
 
 ## Coming soon
 
-- Global-theming examples with styled-components & emotion/native (CSS in JS)
+- ~~Global-theming examples with styled-components (CSS in JS)~~
+- Global-theming examples with emotion/native
 - Get color scheme from image (Web)
 - Get color scheme from image (React-Native)
 - Machine-Learning JS models for color scheme generation
