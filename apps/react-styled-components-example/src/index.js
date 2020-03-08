@@ -69,6 +69,12 @@ const App = () => {
         <Card style={{ overflowX: 'scroll' }}>
           <h3>Theme object</h3>
           <pre>{JSON.stringify(theme, null, 2)}</pre>
+          <p>
+            Check out the implementation at pigment-core's original&nbsp;
+            <a href="https://github.com/kevinrodriguez-io/pigment/tree/master/apps/react-styled-components-example">
+              repository
+            </a>
+          </p>
         </Card>
       </Layout>
     </ThemeProvider>

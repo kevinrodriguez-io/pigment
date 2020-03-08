@@ -62,6 +62,10 @@ Does this sound familiar? That's because Pigment is heavily inspired by Vicc Ale
   - Triadic
 - Compatible with Chameleon Framework's Sketch, PhotoShop and Storyboard [plugins](https://github.com/viccalexander/Chameleon/tree/master/Extras).
 
+## Examples
+
+- App theming with styled-components [example](https://pigment-react-styled-components-example.netlify.com/) / [source](https://github.com/kevinrodriguez-io/pigment/tree/master/apps/react-styled-components-example)
+
 ## Installing
 
 ```bash
