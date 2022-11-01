@@ -95,7 +95,7 @@ const colors = {
     light: '#5064A1',
     dark: '#394C80',
   },
-}
+} as const
 
 export const flatColorsArray = Object.values(colors)
   .map(color => [color.light, color.dark])
