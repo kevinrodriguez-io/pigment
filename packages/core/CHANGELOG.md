@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/kevinrodriguez-io/pigment/compare/v1.3.1...v1.4.0) (2022-11-01)
+
+
+### Features
+
+* added const typing for colors object ([31e8058](https://github.com/kevinrodriguez-io/pigment/commit/31e80583f683ed0e29356e751bad3a0c2437524d))
+
+
+
+
+
 ## [1.3.1](https://github.com/kevinrodriguez-io/pigment/compare/v1.3.0...v1.3.1) (2020-03-08)
 
 **Note:** Version bump only for package @kevinrodriguez-io/pigment-core
