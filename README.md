@@ -12,14 +12,11 @@
 
 <p align="center">
   <a href="https://npmjs.com/package/@kevinrodriguez-io/pigment-core"><img src="https://img.shields.io/npm/v/@kevinrodriguez-io/pigment-core.svg?label=@kevinrodriguez-io/pigment-core&style=flat-square" alt="@kevinrodriguez-io/pigment"></a>
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
-  </a>
-  <a href="#contributors-">
-    <img src="https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square" alt="All Contributors">
-  </a>
   <a href="https://lerna.js.org/">
-    <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg" alt="lerna">
+    <img src="https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg?style=flat-square" alt="lerna">
+  </a>
+  <a href="https://www.npmjs.com/package/@kevinrodriguez-io/pigment-core">
+    <img alt="npm" src="https://img.shields.io/npm/dt/@kevinrodriguez-io/pigment-core?style=flat-square">
   </a>
 </p>
 
@@ -69,14 +66,11 @@ Does this sound familiar? That's because Pigment is heavily inspired by Vicc Ale
 ## Installing
 
 ```bash
-npm i @kevinrodriguez-io/pigment-core --save
+$ yarn add @kevinrodriguez-io/pigment-core
+# or
+$ npm i @kevinrodriguez-io/pigment-core
 ```
 
-or
-
-```bash
-yarn add @kevinrodriguez-io/pigment-core
-```
 
 ## Usage
 
@@ -148,12 +142,7 @@ color.contrastingFlatTextColor // Flat version
 ## Coming soon
 
 - ~~Global-theming examples with styled-components (CSS in JS)~~
-- Global-theming examples with emotion/native
-- Get color scheme from image (Web)
-- Get color scheme from image (React-Native)
-- Machine-Learning JS models for color scheme generation
-- CSS Global Theme Generation
-- CSS Houdini Paint Worklets to support conversions and derived colors
+- React-based bindings and hooks
 
 ## Contributors ✨
 
