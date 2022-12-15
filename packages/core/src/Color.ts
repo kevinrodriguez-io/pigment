@@ -9,6 +9,7 @@ import {
   FlatColorScheme,
   ComplementaryFlatColorScheme,
   TriadicFlatColorScheme,
+  TailwindColor,
 } from './types'
 
 import {
@@ -134,6 +135,23 @@ export default class Color {
       this,
       ...this.shades(percentage),
     ]
+  }
+
+  public tailwindColors(): TailwindColor {
+    const [c50, c100, c200, c300, c400, c500, c600, c700, c800, c900] =
+      this.all(20)
+    return {
+      '50': c50.hex,
+      '100': c100.hex,
+      '200': c200.hex,
+      '300': c300.hex,
+      '400': c400.hex,
+      '500': c500.hex,
+      '600': c600.hex,
+      '700': c700.hex,
+      '800': c800.hex,
+      '900': c900.hex,
+    }
   }
 
   public get nearestFlatColor(): Color {

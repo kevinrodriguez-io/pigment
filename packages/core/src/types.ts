@@ -33,26 +33,39 @@ export type TriadicColorScheme = [
 
 export type TriadicFlatColorScheme = TriadicColorScheme
 
-export interface RGB {
+export type RGB = {
   r: number
   g: number
   b: number
 }
 
-export interface HSL {
+export type HSL = {
   h: number
   s: number
   l: number
 }
 
-export interface XYZ {
+export type XYZ = {
   x: number
   y: number
   z: number
 }
 
-export interface LAB {
+export type LAB = {
   l: number
   a: number
   b: number
+}
+
+export type TailwindColor = {
+  '50': string
+  '100': string
+  '200': string
+  '300': string
+  '400': string
+  '500': string
+  '600': string
+  '700': string
+  '800': string
+  '900': string
 }
